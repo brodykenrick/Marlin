@@ -8,7 +8,7 @@
 //===========================================================================
 //============================= DELTA Printer ===============================
 //===========================================================================
-// For a Delta printer rplace the configuration files wilth the files in the 
+// For a Delta printer replace the configuration files wilth the files in the 
 // example_configurations/delta directory.
 // 
 
@@ -17,6 +17,7 @@
 // build by the user have been successfully uploaded into firmware.
 #define STRING_VERSION_CONFIG_H "(" __DATE__ " " __TIME__ ", default config)" // build date and time
 #define STRING_CONFIG_H_AUTHOR "(none, default config)" // Who made the changes.
+#define STRING_CONFIG_H_LICENSE "GPLv3-You should have received the file COPYING with details."
 
 // SERIAL_PORT selects which serial port should be used for communication with the host.
 // This allows the connection of wireless adapters (for instance) to non-default port pins.
@@ -596,5 +597,15 @@ const bool Z_MAX_ENDSTOP_INVERTING = true; // set to true to invert the logic of
 
 #include "Configuration_adv.h"
 #include "thermistortables.h"
+
+//BK -- Note these are redefined (from language.h) -- TODO: It should be moved to a single location.
+#define STRINGIFY_(n) #n
+#define STRINGIFY(n) STRINGIFY_(n)
+
+//Stringise a few important values to help easily identify what is in the firmware
+//Heating resistor/Heating cartridge
+#define STRING_CONFIG_H_CFG_DEFS "MOTHERBOARD" "=" STRINGIFY(MOTHERBOARD) " " "TEMP_SENSOR_0" "=" STRINGIFY(TEMP_SENSOR_0) " "
+
+
 
 #endif //__CONFIGURATION_H

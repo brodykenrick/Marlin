@@ -142,7 +142,9 @@
 	#define MSG_SOFTWARE_RESET " Software Reset"
 	#define MSG_MARLIN "Marlin "
 	#define MSG_AUTHOR " | Author: "
+	#define MSG_LICENSE " | License: "
 	#define MSG_CONFIGURATION_VER " Last Updated: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: "
 	#define MSG_FREE_MEMORY " Free Memory: "
 	#define MSG_PLANNER_BUFFER_BYTES "  PlannerBufferBytes: "
 	#define MSG_OK "ok"
@@ -307,7 +309,9 @@
 	#define MSG_SOFTWARE_RESET " Reset (programowy)"
 	#define MSG_MARLIN "Marlin "
 	#define MSG_AUTHOR " | Autor: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER " Ostatnia aktualizacja: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY " Wolna pamiec: "
 	#define MSG_PLANNER_BUFFER_BYTES "  Bufor planisty krokow (w bajtach): "
 	#define MSG_OK "ok"
@@ -471,7 +475,9 @@
 	#define MSG_SOFTWARE_RESET " RAZ logicielle"
 	#define MSG_MARLIN "Marlin "
 	#define MSG_AUTHOR " | Auteur: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER " Derniere MaJ: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY " Memoire libre: "
 	#define MSG_PLANNER_BUFFER_BYTES " PlannerBufferBytes: "
 	#define MSG_OK "ok"
@@ -638,7 +644,9 @@
 	#define MSG_SOFTWARE_RESET " Software Reset"
 	#define MSG_MARLIN "Marlin: "
 	#define MSG_AUTHOR " | Author: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER " Last Updated: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY " Free Memory: "
 	#define MSG_PLANNER_BUFFER_BYTES "  PlannerBufferBytes: "
 	#define MSG_OK "ok"
@@ -809,7 +817,9 @@
 	#define MSG_SOFTWARE_RESET " Reset por Software"
 	#define MSG_MARLIN "Marlin "
 	#define MSG_AUTHOR " | Autor: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER " Ultima actualizacion: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY " Memoria libre: "
 	#define MSG_PLANNER_BUFFER_BYTES "  PlannerBufferBytes: "
 	#define MSG_OK "ok"
@@ -970,7 +980,9 @@
 	#define MSG_SOFTWARE_RESET					" программный сброс"
 	#define MSG_MARLIN							"Marlin "
 	#define MSG_AUTHOR							" | Автор: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER				" Последнее обновление: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY						" Памяти свободно: "
 	#define MSG_PLANNER_BUFFER_BYTES			"  Буффер очереди команд Bytes: "
 	#define MSG_OK								"ok"
@@ -1131,7 +1143,9 @@
 	#define MSG_SOFTWARE_RESET       " Software Reset"
 	#define MSG_MARLIN               "Marlin "
 	#define MSG_AUTHOR               " | Autore: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER    " Ultimo Aggiornamento: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY          " Memoria Libera: "
 	#define MSG_PLANNER_BUFFER_BYTES "  PlannerBufferBytes: "
 	#define MSG_OK                   "ok"
@@ -1301,7 +1315,9 @@
 	#define MSG_SOFTWARE_RESET " Reset por Software"
 	#define MSG_MARLIN "Marlin "
 	#define MSG_AUTHOR " | Author: "
+	#define MSG_LICENSE " | License: " //TODO: Translate
 	#define MSG_CONFIGURATION_VER " Ultima atualizacao: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY " memoria Livre: "
 	#define MSG_PLANNER_BUFFER_BYTES "  PlannerBufferBytes: "
 	#define MSG_OK "ok"
@@ -1468,6 +1484,7 @@
 	#define MSG_MARLIN "Marlin "
 	#define MSG_AUTHOR " | Author: "
 	#define MSG_CONFIGURATION_VER " Paivitetty viimeksi: "
+	#define MSG_CFG_DEFS " Configuration.h important DEFs: " //TODO: Translate
 	#define MSG_FREE_MEMORY " Vapaata muistia: "
 	#define MSG_PLANNER_BUFFER_BYTES "  PlannerBufferBytes: "
 	#define MSG_OK "ok"
