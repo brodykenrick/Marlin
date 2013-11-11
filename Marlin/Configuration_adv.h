@@ -161,9 +161,10 @@
   #define EXTRUDERS 1
 #endif
 
-#ifdef Z_DUAL_STEPPER_DRIVERS && Y_DUAL_STEPPER_DRIVERS
+//#ifdef Z_DUAL_STEPPER_DRIVERS && Y_DUAL_STEPPER_DRIVERS
+#if defined(Z_DUAL_STEPPER_DRIVERS) && defined(Y_DUAL_STEPPER_DRIVERS)
   #error "You cannot have dual drivers for both Y and Z"
-#endif 
+#endif
 
 // Enable this for dual x-carriage printers. 
 // A dual x-carriage design has the advantage that the inactive extruder can be parked which
